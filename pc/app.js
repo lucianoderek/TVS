@@ -1,6 +1,6 @@
 // =====================================================
 // CrackVision
-// Sistema offline de análisis estructural
+// Sistema offline de anÃ¡lisis estructural
 // Control principal
 // =====================================================
 
@@ -419,7 +419,7 @@ function loadImage(file){
 
 
         setStatus(
-            "Imagen cargada. Preparando análisis..."
+            "Imagen cargada. Preparando anÃ¡lisis..."
         );
 
 
@@ -498,7 +498,7 @@ function analyzeImage(){
 
 
     addLog(
-        "Iniciando análisis estructural."
+        "Iniciando anÃ¡lisis estructural."
     );
 
 
@@ -557,7 +557,7 @@ function analyzeImage(){
 
 
         addLog(
-            "Conversión escala de grises."
+            "ConversiÃ³n escala de grises."
         );
 
 
@@ -651,7 +651,7 @@ function analyzeImage(){
 
 
         addLog(
-            "Extracción de estructuras oscuras."
+            "ExtracciÃ³n de estructuras oscuras."
         );
 
 
@@ -677,7 +677,7 @@ function analyzeImage(){
 
 
         addLog(
-            "Segmentación inicial."
+            "SegmentaciÃ³n inicial."
         );
 
 
@@ -737,7 +737,7 @@ function analyzeImage(){
 
 
 
-        // enviar al análisis final
+        // enviar al anÃ¡lisis final
 
         analyzeContours(
             src,
@@ -780,7 +780,7 @@ function analyzeImage(){
 
 
         setStatus(
-            "Error durante análisis."
+            "Error durante anÃ¡lisis."
         );
 
 
@@ -1146,7 +1146,7 @@ function calculateResults(
 
 
     setStatus(
-        "Análisis completado."
+        "AnÃ¡lisis completado."
     );
 
 
@@ -1159,7 +1159,7 @@ function calculateResults(
 }
 
 // =====================================================
-// INDICADOR DE DAÑO
+// INDICADOR DE DAÃ‘O
 // =====================================================
 
 
@@ -1220,7 +1220,7 @@ function updateIndicator(value){
 
 
         damageLabel.textContent =
-            "Daño bajo";
+            "DaÃ±o bajo";
 
 
     }
@@ -1228,7 +1228,7 @@ function updateIndicator(value){
 
 
         damageLabel.textContent =
-            "Daño moderado";
+            "DaÃ±o moderado";
 
 
     }
@@ -1236,7 +1236,7 @@ function updateIndicator(value){
 
 
         damageLabel.textContent =
-            "Daño alto";
+            "DaÃ±o alto";
 
 
     }
