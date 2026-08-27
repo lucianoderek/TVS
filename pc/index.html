@@ -25,6 +25,16 @@
             <input type="file" id="imageInput" accept="image/jpeg, image/png, image/webp, image/bmp" hidden />
             <button id="uploadButton" type="button">Seleccionar imagen</button>
         </section>
+        <section class="results-card photo-recommendations" aria-labelledby="photoTipsTitle">
+            <h2 id="photoTipsTitle">Recomendaciones para la fotografía</h2>
+            <ul>
+                <li> Toma la fotografía con buena iluminación.</li>
+                <li> Acércate lo suficiente para que la grieta sea visible y nítida.</li>
+                <li> Procura que la superficie aparezca de frente y sin inclinaciones excesivas.</li>
+                <li> Evita fotografías borrosas, oscuras o con objetos cubriendo la grieta.</li>
+                <li> Incluye una parte de la superficie alrededor de la grieta para facilitar el análisis.</li>
+            </ul>
+        </section>
         <section id="indicator" class="indicator hidden" aria-labelledby="damageLabel">
             <svg viewBox="0 0 160 160">
                 <circle cx="80" cy="80" r="60" class="circle-background" />
@@ -82,10 +92,6 @@
                     <strong id="severity">N/A</strong>
                 </div>
             </div>
-        </section>
-        <section class="log-panel" aria-labelledby="logTitle">
-            <h2 id="logTitle">Registro del proceso</h2>
-            <div id="log" role="log" aria-live="polite" aria-atomic="false">Sistema preparado.</div>
         </section>
         <footer class="footer">
             <p><strong>Tu Vivienda, Segura • Análisis estructural offline</strong></p>
